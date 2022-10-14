@@ -1,0 +1,261 @@
+.header
+{
+  top:-1%;
+  left:0%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+h2
+{
+   font-size:21px;
+   font-family:"Apple Chancery", cursive;
+   font-weight:500;
+   
+ }
+h1
+{
+   font-size: 125px;
+   font-family: 'Great Vibes', cursive;
+   font-weight:595;
+   transform: scale(1.003,1.6);
+  text-shadow:5px 5px rgb(90, 180, 235),
+		   1px 1px black;
+}
+.box
+{
+  position:absolute;
+  float:right;
+  top: 25%;
+  width: 38%;
+  
+  height: 290px;
+  width: 580px;
+  left: 35%;
+  background-color:rgb(26, 43, 82);
+  transform: translateX(40%);
+  z-index:200;
+  text-align:right;
+  font-size: 36px;
+  } 
+.line
+{
+   position:absolute;
+  float:right;
+  top: 5%;
+  height: 19px;
+  width: 100%;
+  left: -40%;
+  background-color:rgb(26, 43, 82);
+  transform: translateX(40%);
+  z-index:200;
+}
+.bbox
+{
+  position:absolute;
+  float:right;
+  top: 10%;
+  width: 38%;
+  border-style:dashed;
+  height: 475px;
+  width: 390px;
+  left: 47%;
+  background: rgba(49,48,25,.15);
+  transform: translateX(40%);
+  z-index:200;
+  text-align:right;
+  font-size: 36px;
+   border-width:5px;
+   border-color:rgb(128, 170, 255);
+}
+.bline
+{
+  position:absolute;
+  top: 68%;
+  height: 4px;
+  width: 59.9%;
+  left: -25.2%;
+  background-color:rgb(137, 168, 243);
+  border-style:double;
+  border-width:1.3px;
+   border-color:black;
+  transform: translateX(40%);
+  z-index:200;
+}
+img
+{
+   position:absolute;
+   top: 6%;
+   width:350px;
+   height:415px;
+   left: 5%;
+   border: 1px solid rgb(128, 168, 255);
+}
+.sbox
+{
+   position:absolute;
+  float:right;
+  top: 7.2%;
+  height: 28px;
+  width: 220px;
+  left: -5%;
+  background-color:rgb(128, 170, 255);
+  transform: translateX(40%);
+  z-index:200;
+  text-align:LEFT;
+  font-size: 19px;
+  color:black;
+  font-family:cursive;
+  font-weight:630;
+  border-style:solid;
+  border-width:3px;
+  border-color:black;
+}
+
+.container
+{
+   margin:10;
+   padding:0;
+   left:-75%;
+   top: 0%;
+   background-color:white;
+   position:relative;
+   float:right;
+   height: 60px;
+   width:60px;
+   display:flex;
+   border-radius:50%; 
+   align-items:center; 
+   justify-content:center; 
+   box-shadow: 0px 2px 2px 1px rgb(146, 185, 185);
+   overflow:hidden;
+}
+a
+{
+   
+   display:flex;
+   font-size:36px;
+   text-align:center;
+   margin:10;
+   position:relative;
+   text-decoration:none;
+   
+}
+.fa-github
+{
+   color:rgb(0, 0, 102);
+}
+.fa-instagram
+{
+   color:rgb(255, 0, 102);
+}
+.fa-linkedin
+{
+   color:rgb(0, 0, 204);
+}
+.fa-whatsapp
+{
+   color:green;
+}
+
+a i
+{
+  transition: all 0 linear;
+}
+a:hover .fa 
+{
+   transform:scale(1.1);
+    color:white;  
+}
+
+.header a:before
+{
+   content:"";
+   width:200%;
+   height:200%;
+   position:absolute;
+   top:120%;
+   left:-25%;
+   background-color:rgb(46, 92, 184);
+   transform:rotate(130deg);
+}
+
+.header a:hover:before
+{
+   animation: icons  1s 1;
+   animation-fill-mode: forwards;
+
+}
+@keyframes icons
+{
+   0%{top:60%; ;left: -50%;}
+   50%{top:0; left:0%;}
+   100%{top:0%; left:0%;}
+}
+.footer
+{
+   position:absolute;
+   top:90%;
+   background-color:black;
+   text-align:right;
+   font size:18;
+   color:white;
+   width:100%;
+   left:0%;
+}
+
+#vd
+{
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+}
+<style type="text/css">
+*{
+  margin=0;
+  padding=0;
+}
+   
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(30, 43, 82);
+  position: fixed;
+  top:92%;
+  width: 100%;
+  left:0;
+  height:8%;
+}
+
+.navbar a {
+  float: left;
+  font-family:cursive;
+  font-weight:600;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  font-size:16px;
+  color: rgb(90, 180, 235);
+}
+
+.navbar a.active {
+  color: rgb(90, 180, 235);
+}
+
+
+.p
+{
+   background-color: skyblue;
+   width:1340px;
+   height:650px;
+}
