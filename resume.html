@@ -93,6 +93,8 @@ Bableen Kaur</h1>
 rel='stylesheet' type='text/css'>
 
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 <section id="about" style="background-image: url('ab.jpg');">
  <h3 >ABOUT &nbsp;ME:</h3>
 <p style="font-size: 21px;color:darkblue"><b>&nbsp;&nbsp;Hello,my name is Bableen Kaur. I live in delhi.<br>&nbsp;&nbsp; I am in 2nd year of graduation from SGTB KHALSA COLLEGE, DU pursuing bsc. Compuer Science hons.</b></p>
@@ -139,7 +141,7 @@ rel='stylesheet' type='text/css'>
 </div>
 </form>
 <div class="con">
-      <textarea id="text" rows="1">8178096329</textarea>
+      <input type="text" value="8178096329" id="copy">
       <button class="bttn" onclick="copy()">copy
       </button>
     </div>
@@ -270,12 +272,28 @@ rel='stylesheet' type='text/css'>
 <script>
 
 function copy() {
-  var text = document.getElementById('text');
-  var range=document.createRange();
-  range.selectNode(text);
-  window.getSelection().addRange(range);
-  document.execCommand("copied");
-  bttn.innerHTML = "Copied!";
+  var ctext = document.getElementById("copy");
+  ctext.select();
+  document.execCommand("copy");
+  alert("copied number to clipboard.") ;
+}
+
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 </script>
 
