@@ -572,10 +572,10 @@ h4
     color:white;
 }
 
-#text
+#copy
 {
    width: 150px;
-    height:28px;
+    height:30px;
     font-size:16px;
 }
 .con{
@@ -659,4 +659,48 @@ h5
   top:570%;
    left:55%;
   FONT-SIZE:17PX;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 48px;
+  right: 10px;
+  z-index: 399;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  width:80px;
+  height:30px;
+  border-style:solid;
+  border-width:1px;
+  border-color:pink;
+}
+
+
+
+#myBtn:after {
+  content: '^';
+  position: absolute;
+  opacity: 0;  
+  top: 8px;
+  right: -15px;
+  transition: 0.5s;
+}
+
+#myBtn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+#myBtn:hover:after {
+  opacity: 1;
+  right: 10px;
 }
