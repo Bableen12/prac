@@ -26,7 +26,7 @@ h1
 {
   top:0%;
   left:0%;
-  height: 100%;
+  height: 110%;
   width: 130%;
 }
 
@@ -83,7 +83,7 @@ h1
 #about
 {
    width:1368px;
-   height:630px;    
+   height:700px;    
 }
 #contact
 {
@@ -94,7 +94,7 @@ h1
 .b
 {
   position:absolute;
-  top:215%;
+  top:295%;
   width: 10%;
   height:340px;
   width: 500px;
@@ -122,29 +122,29 @@ h1
 
 h5
 { 
-  top:478%;
+  top:600%;
    left:47%;
 }
 
 .p1
 {
-  top:515%;
+  top:650%;
    left:9%;
     FONT-SIZE:19PX;
 }
 
 .p2
 {
-  top:515%;
+  top:650%;
    left:72%;
   FONT-SIZE:19PX;
 }
 #myBtn {
-  bottom:65px;
+  bottom:48px;
   right: 2px;
   width:120px;
   height:40px;
-  font-size: 20px;
+  font-size: 22px;
 }
 p{
   font-size:27px;
@@ -440,54 +440,60 @@ a
 #about
 {
    width:1368px;
-   height:1460px;  
+   height:1490px;  
    background-image:none;
 }
 #contact
 {
-   
+   height:1490px;
    width:1368px;
   
 }
 .b
 {
   position:absolute;
-  top:638%;
+  top:700%;
   width: 10%;
-  height:340px;
-  width: 500px;
-  left:30%;
+  height:800px;
+  width: 900px;
+  left:-30%;
 }
 .con{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 6%;
+  display: none;
 }
 #edu
 {
+   background-image:none;
    width:1368px;
+   height:1190px;
 }
 #skills
 {
    width:1368px;
+   height:800px;
 }
 #ach
 {
+   background-image:none;
+   background-color:hsla(0,100%, 70%, 0.3);
+   height:1190px;
    width:1368px;
 }
 
 h5
 { 
-  top:645%;
-   left:59%;
+  color:darkmagenta;
+  font-size:100px;
+  top:1293%;
+   left:78%;
 }
 
 .p1
 {
-  top:695%;
+  top:1360%;
    left:12%;
+   height:200px;
+  width:990px;
 }
 li
 {
@@ -495,15 +501,17 @@ li
 }
 .p2
 {
-  top:695%;
-   left:97%;
+  top:1430%;
+   left:12%;
+   height:200px;
+  width:990px;
 }
 #myBtn {
-  bottom:65px;
+  bottom:85px;
   right: 2px;
-  width:120px;
-  height:40px;
-  font-size: 20px;
+  width:230px;
+  height:70px;
+  font-size: 40px;
 }
 h3
 {
@@ -521,5 +529,90 @@ p
 h6
 {
    font-size:40px;
+   font-weight:700px;
+}
+.language
+{
+      height:40px;
+}
+      
+        .lang 
+         {
+            font-size: 37px;
+        }
+
+.eng
+{
+   height:40px;
+   
+}
+.hindi
+{
+   height:40px;
+}
+.german
+{
+   height:40px;
+   
+}
+.punj
+{
+   height:40px;
+}
+
+.input{
+    height: 670px;
+    width: 800px;
+    
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:36px;
+    border: 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 280px;
+    height:60px;
+    margin-bottom: 1rem;
+    font-size:32px;
+}
+
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-50px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.circle-wrap .inside-circle {
+  
+  font-size: 1.6em;
+  font-family:cursive;
+}
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 43px;
+  width:298px;
+  color:black;
+  left:-1100px;
+  top:495px;
+  font-size:30px;
+  font-weight:620;
+  
 }
 }
