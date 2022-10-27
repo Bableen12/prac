@@ -1,3 +1,8 @@
+body
+{
+  margin:0px;
+  background-color:rgb(230, 230, 255);
+}
 .header
 {
   top:-1%;
@@ -209,10 +214,10 @@ a:hover .fa
 
 #vd
 {
+  top:-10; 
   width:100%;
   height:100%;
-  left:0;
-  top:0;
+  
 }
 <style type="text/css">
 *{
@@ -248,13 +253,17 @@ a:hover .fa
   color: rgb(90, 180, 235);
 }
 
-
+#home
+{
+    width:1349px;
+   height:600px;  
+}
 
 #about
 {
-   background-color: skyblue;
-   width:1330px;
-   height:650px;   
+   background-image: url('ab.jpg');
+   width:1349px;
+   height:690px;   
    
 }
 
@@ -270,8 +279,8 @@ h3
 
 #edu
 {
-   background-color: skyblue;
-   width:1330px;
+   background-image: url('edu.jpg');
+   width:1349px;
    height:650px;   
    
 }
@@ -325,7 +334,7 @@ table
 #skills
 {
    background-color: rgb(30, 43, 82);
-   width:1330px;
+   width:1349px;
    height:580px;
    display:flex;
    min-height:100vh; 
@@ -343,7 +352,7 @@ table
 .circle-wrap
 {
    display:grid;
-   grid-tenplate-columns: repeat(1,160px);
+   grid-template-columns: repeat(1,160px);
    grid-gap:80px;
    margin-top: -80px;
      margin-left:-100px;
@@ -512,8 +521,8 @@ h4
 }
 #contact
 {
-   background-color: pink;
-   width:1330px;
+   
+   width:1349px;
    height:580px;
    min-height:100vh;
    align-items:center;
@@ -583,7 +592,7 @@ h4
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .bttn{
@@ -619,8 +628,8 @@ h4
 
 #ach
 {
-   background-color: rgb(30, 43, 82);
-   width:1330px;
+  background-image: url('ac1.jpg');
+   width:1349px;
    height:600px;
    display:flex;
    min-height:100vh; 
@@ -634,8 +643,7 @@ h5
    text-align: center;
    color:deeppink;
    text-decoration:underline;  
-  top:520%;
-
+  top:525%;
    left:35%;
 }
 
@@ -704,3 +712,25 @@ h5
   opacity: 1;
   right: 10px;
 }
+
+p
+{
+   font-size: 21px;
+   color:darkblue;
+}
+
+h6
+{
+  font-size: 18px;
+  color:darkblue;
+}
+
+h7
+{
+   color: #A8CAFF;
+   font-size:55px;
+   font-family:Lobster;
+   text-align:left;
+   text-decoration:underline;
+}
+
