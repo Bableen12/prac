@@ -1,0 +1,1325 @@
+@media screen and (max-width:1100px)
+{
+   body
+   {
+     width:905px;
+      background-color:lightblue;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+img
+{
+   width:380px;
+   height:455px;
+   top: 1.5%;
+   left: 2%;
+   border: 0.5px solid rgb(128, 168, 255);
+}
+
+#home
+{
+    width:995px;
+   height:742px;  
+}
+h1
+{
+   font-size: 152px;
+   text-shadow:3px 3px rgb(90, 180, 235),
+		   1px 1px black;
+  margin-top:110px;
+}
+h3
+{
+font-size:33px;
+}
+
+.header
+{
+  top:0%;
+  left:0%;
+  height: 110%;
+  width: 130%;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  top: 15%;
+  border-style:dashed;
+  height: 475px;
+  width: 400px;
+  background: rgba(49,48,25,.15);
+  transform: translateX(40%);
+  z-index:200;
+  text-align:right;
+  font-size: 36px;
+   border-width:5px;
+   border-color:rgb(128, 170, 255);
+  left: 54%;
+  
+}
+.bline
+{
+  display:none;
+}
+
+.sbox
+{
+  left:-7%;
+  top: 7%;
+  height: 34px;
+  width: 250px;
+  font-size: 24px;
+  color:black;
+  font-family:cursive;
+  font-weight:630;
+  border-style:solid;
+  border-width:3px;
+   
+}
+.container
+{
+   
+   left:-72%;
+   top: -15%;
+   height: 70px;
+   width:70px;
+   
+}
+a
+{
+   font-size:40px;
+   margin:10;
+}
+.navbar {
+  top:91%;
+  height:9%;
+  
+}
+.navbar a {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+#about
+{
+   width:1141px;
+   height:528px;     
+}
+#contact
+{
+ width:1141px;
+  
+}
+.b
+{
+  position:absolute;
+  top:215%;
+  width: 10%;
+  height:340px;
+  width: 500px;
+  left:5%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   width:1141px;
+   height:528px;
+}
+#skills
+{
+   width:1141px;
+   height:528px;
+}
+#ach
+{
+    background-image:none;
+   width:1141px;
+   height:500px;
+}
+
+h5
+{ 
+  top:490%;
+   left:29%;
+   font-size:44px;
+   color:darkblue;
+}
+
+.p1
+{
+  top:520%;
+   left:-1%;
+    FONT-SIZE:19PX;
+}
+
+.p2
+{
+  top:520%;
+   left:44%;
+  FONT-SIZE:19PX;
+}
+#myBtn {
+  bottom:48px;
+  right: 2px;
+  width:120px;
+  height:40px;
+  font-size: 22px;
+}
+p{
+  font-size:18px;
+  margin-top:-20px;
+  margin-bottom:-15px;
+}
+li
+{
+  font-size:17px;
+}
+
+.language
+{
+      width: 75%;
+      height:15px;
+      margin-top:-25px;
+}
+      
+        .lang 
+         {
+            font-size: 13px;
+        }
+
+.eng
+{
+   width:90%;
+   height:15px;
+   
+}
+.hindi
+{
+   width:95%;
+   height:15px;
+}
+.german
+{
+   width:60%;
+   height:15px;
+   
+}
+.punj
+{
+   width:90%;
+   height:15px;
+}
+.all
+   {
+       margin-left:-170px;
+   }
+.circle-wrap
+{
+     margin-left:0px;
+     grid-gap:-20px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:800px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: -5%;
+   width:400px;
+   height:400px;
+   left: 2%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-5%;
+  left:0%;
+  height: 180%;
+  width: 170%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:790px;
+   height:790px;  
+}
+h1
+{
+   text-align:left;
+   font-size: 140px;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left: 30%;
+  top: 40%;
+  height: 360px;
+  width: 420px;
+  border-color:black;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:28px;
+}
+.sbox
+{
+  left:15%;
+  top:40%;
+  height: 40px;
+  width: 260px;
+  text-align:left;
+  font-size: 25px; 
+}
+.container
+{
+   
+   left:-57%;
+   top: 4%;
+   height: 60px;
+   width:60px;
+   
+}
+a
+{
+   font-size:36px;
+   margin:10;
+}
+.navbar {
+  top:0%;
+  height:6%;
+  font-size:6px;
+  
+}
+
+.navbar a {
+  font-size: 18px;
+  padding: 4px 9px;
+}
+#about
+{
+    width:1050px;
+   height:680px;    
+}
+#contact
+{
+    width:1050px;
+   height:680px;    
+  
+}
+.b
+{
+  position:absolute;
+  top:298%;
+  width: 10%;
+  height:340px;
+  width: 500px;
+  left:15%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+ width:1050px;
+   height:680px;    
+}
+#skills
+{
+    width:1050px;
+   height:680px;      
+}
+#ach
+{
+   width:1050px;
+   height:680px;      
+}
+
+h5
+{ 
+  top:630%;
+   left:49%;
+}
+
+.p1
+{
+  top:658%;
+   left:5%;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:658%;
+   left:72%;
+}
+#myBtn {
+  bottom:65px;
+  right: 2px;
+  width:120px;
+  height:40px;
+  font-size: 20px;
+}
+p
+{
+font-size:21px;
+}
+}
+
+
+
+
+
+@media screen and (max-width:450px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: 0%;
+   width:690px;
+   height:760px;
+   left: 4%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-6%;
+  left:0%;
+  height: 320%;
+  width: 270%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:830px;
+   height:1485px;  
+}
+h1
+{
+   text-align:left;
+   font-size: 200px;
+   text-shadow:8px 8px rgb(90, 180,235),
+		   3px 3px black;
+   margin-top:100px;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left:-2%;
+  top: 38%;
+  height: 760px;
+  width: 750px;
+  border-color:black;
+  border-width:8px;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:28px;
+}
+.sbox
+{
+  top:34%;
+  left:48%;
+  height: 64px;
+  width: 335px;
+  text-align:left;
+  font-size: 38px; 
+}
+.container
+{
+   
+   left:-55%;
+   top:-8%;
+    height: 110px;
+   width:110px;
+    margin:10;
+}
+a
+{
+   font-size:58px;
+}
+.navbar {
+  top:0%;
+  height:5%;
+  font-size:33px;
+  
+}
+
+.navbar a {
+  font-size: 23px;
+  padding: 18px 15px;
+}
+#about
+{
+   width:1158px;
+   height:1490px;  
+   background-image:none;
+}
+#contact
+{
+   height:1490px;
+   width:1150px;
+  
+}
+.b
+{
+  position:absolute;
+  top:610%;
+  width: 10%;
+  height:800px;
+  width: 900px;
+  left:-60%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   background-image:none;
+   width:1144px;
+   height:1000px;
+}
+#skills
+{
+   width:1368px;
+   height:800px;
+}
+#ach
+{
+   background-image:none;
+   background-color:hsla(0,100%, 70%, 0.3);
+   height:1190px;
+   width:1368px;
+}
+
+h5
+{ 
+  color:darkmagenta;
+  font-size:100px;
+  top:1130%;
+   left:45%;
+}
+
+.p1
+{
+  top:1190%;
+   left:12%;
+   height:200px;
+  width:990px;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:1250%;
+   left:12%;
+   height:200px;
+  width:990px;
+}
+#myBtn {
+  bottom:85px;
+  right: 2px;
+  width:230px;
+  height:70px;
+  font-size: 40px;
+}
+h3
+{
+  font-size:80px;
+}
+li
+{
+   font-size:40px;
+   font-weight:600px;
+}
+p
+{
+   font-size:40px;
+}
+h6
+{
+   font-size:40px;
+   font-weight:700px;
+}
+.language
+{
+      height:40px;
+}
+      
+        .lang 
+         {
+            font-size: 37px;
+        }
+
+.eng
+{
+   height:40px;
+   
+}
+.hindi
+{
+   height:40px;
+}
+.german
+{
+   height:40px;
+   
+}
+.punj
+{
+   height:40px;
+}
+
+.input{
+    height: 670px;
+    width: 800px;
+    
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:36px;
+    border: 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 280px;
+    height:60px;
+    margin-bottom: 1rem;
+    font-size:32px;
+}
+
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-50px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.circle-wrap .inside-circle {
+  
+  font-size: 1.6em;
+  font-family:cursive;
+}
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 43px;
+  width:298px;
+  color:black;
+  left:-1100px;
+  top:495px;
+  font-size:30px;
+  font-weight:620;
+  
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: 0%;
+   width:690px;
+   height:760px;
+   left: 5%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-6%;
+  left:0%;
+  height: 420%;
+  width: 300%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:1024px;
+   height:2050px;  
+}
+h1
+{
+   text-align:center;
+   font-size: 250px;
+   text-shadow:10px 10px rgb(90, 180,235),
+		   3px 3px black;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left:-2%;
+  top: 48%;
+  height: 760px;
+  width: 780px;
+  border-color:skyblue;
+  border-width:8px;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:28px;
+}
+.sbox
+{
+  top:5%;
+  left:58%;
+  height: 60px;
+  width: 320px;
+  text-align:left;
+  font-size: 36px; 
+}
+.container
+{
+   
+   left:-15%;
+   top:32%;
+    height: 110px;
+   width:110px;
+    margin:10;
+}
+a
+{
+   font-size:58px;
+}
+.navbar {
+  top:95%;
+  height:15%;
+  font-size:33px;
+  
+}
+
+.navbar a {
+  font-size: 28px;
+  padding: 18px 18px;
+}
+#about
+{
+   width:1368px;
+   height:1490px;  
+   background-image:none;
+}
+#contact
+{
+   height:1490px;
+   width:1368px;
+  
+}
+.b
+{
+  position:absolute;
+  top:700%;
+  width: 10%;
+  height:800px;
+  width: 900px;
+  left:-30%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   background-image:none;
+   width:1368px;
+   height:1000px;
+}
+#skills
+{
+   width:1368px;
+   height:800px;
+}
+#ach
+{
+   background-image:none;
+   background-color:hsla(0,100%, 70%, 0.3);
+   height:1190px;
+   width:1368px;
+}
+
+h5
+{ 
+  color:darkmagenta;
+  font-size:100px;
+  top:1223%;
+   left:78%;
+}
+
+.p1
+{
+  top:1290%;
+   left:12%;
+   height:200px;
+  width:990px;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:1360%;
+   left:12%;
+   height:200px;
+  width:990px;
+}
+#myBtn {
+  bottom:105px;
+  right: 2px;
+  width:230px;
+  height:70px;
+  font-size: 40px;
+}
+h3
+{
+  font-size:90px;
+}
+li
+{
+   font-size:40px;
+   font-weight:600px;
+}
+p
+{
+   font-size:40px;
+}
+h6
+{
+   font-size:40px;
+   font-weight:700px;
+}
+.language
+{
+      height:40px;
+}
+      
+        .lang 
+         {
+            font-size: 37px;
+        }
+
+.eng
+{
+   height:40px;
+   
+}
+.hindi
+{
+   height:40px;
+}
+.german
+{
+   height:40px;
+   
+}
+.punj
+{
+   height:40px;
+}
+
+.input{
+    height: 670px;
+    width: 800px;
+    
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:36px;
+    border: 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 280px;
+    height:60px;
+    margin-bottom: 1rem;
+    font-size:32px;
+}
+
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-50px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.circle-wrap .inside-circle {
+  
+  font-size: 1.8em;
+  font-family:cursive;
+}
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 56px;
+  width:370px;
+  color:black;
+  left:-1100px;
+  top:495px;
+  font-size:37px;
+  font-weight:620;
+  
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: 2%;
+   width:690px;
+   height:760px;
+   left: -2%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-6%;
+  left:0%;
+  height: 420%;
+  width: 300%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:1024px;
+   height:2050px;  
+}
+h1
+{
+   text-align:center;
+   font-size: 250px;
+   text-shadow:10px 10px rgb(90, 180,235),
+		   3px 3px black;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left:-4%;
+  top: 48%;
+  height: 760px;
+  width: 800px;
+  border-color:skyblue;
+  border-width:0px;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:28px;
+}
+.sbox
+{
+  top:5%;
+  left:50%;
+  height: 60px;
+  width: 320px;
+  text-align:left;
+  font-size: 36px; 
+}
+.container
+{
+   
+   left:-15%;
+   top:32%;
+    height: 110px;
+   width:110px;
+    margin:10;
+}
+a
+{
+   font-size:58px;
+}
+.navbar {
+  top:95%;
+  height:15%;
+  font-size:33px;
+  
+}
+
+.navbar a {
+  font-size: 28px;
+  padding: 18px 18px;
+}
+#about
+{
+   width:1368px;
+   height:1490px;  
+   background-image:none;
+}
+#contact
+{
+   height:1490px;
+   width:1368px;
+  
+}
+.b
+{
+  position:absolute;
+  top:700%;
+  width: 10%;
+  height:800px;
+  width: 900px;
+  left:-50%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   background-image:none;
+   width:1368px;
+   height:1000px;
+}
+#skills
+{
+   width:1368px;
+   height:800px;
+}
+#ach
+{
+   background-image:none;
+   background-color:hsla(0,100%, 70%, 0.3);
+   height:1190px;
+   width:1368px;
+}
+
+h5
+{ 
+  color:darkmagenta;
+  font-size:100px;
+  top:1223%;
+   left:78%;
+}
+
+.p1
+{
+  top:1290%;
+   left:12%;
+   height:200px;
+  width:990px;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:1360%;
+   left:12%;
+   height:200px;
+  width:990px;
+}
+#myBtn {
+  bottom:105px;
+  right: 2px;
+  width:230px;
+  height:70px;
+  font-size: 40px;
+}
+h3
+{
+  font-size:90px;
+}
+li
+{
+   font-size:40px;
+   font-weight:600px;
+}
+p
+{
+   font-size:40px;
+}
+h6
+{
+   font-size:40px;
+   font-weight:700px;
+}
+.language
+{
+      height:40px;
+}
+      
+        .lang 
+         {
+            font-size: 37px;
+        }
+
+.eng
+{
+   height:40px;
+   
+}
+.hindi
+{
+   height:40px;
+}
+.german
+{
+   height:40px;
+   
+}
+.punj
+{
+   height:40px;
+}
+
+.input{
+    height: 670px;
+    width: 800px;
+    
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:36px;
+    border: 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 280px;
+    height:60px;
+    margin-bottom: 1rem;
+    font-size:32px;
+}
+
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-50px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.circle-wrap .inside-circle {
+  
+  font-size: 1.8em;
+  font-family:cursive;
+}
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 56px;
+  width:370px;
+  color:black;
+  left:-1100px;
+  top:495px;
+  font-size:37px;
+  font-weight:620;
+  
+}
+}
