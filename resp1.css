@@ -2,7 +2,7 @@
 {
    body
    {
-     width:905px;
+     width:1368px;
       background-color:lightblue;
     }
 
@@ -11,30 +11,15 @@
   width:133.6%;
   height:100%; 
   }
-img
-{
-   width:380px;
-   height:455px;
-   top: 1.5%;
-   left: 2%;
-   border: 0.5px solid rgb(128, 168, 255);
-}
 
 #home
 {
-    width:995px;
-   height:742px;  
+    width:1024px;
+   height:600px;  
 }
 h1
 {
-   font-size: 152px;
-   text-shadow:3px 3px rgb(90, 180, 235),
-		   1px 1px black;
-  margin-top:110px;
-}
-h3
-{
-font-size:33px;
+   font-size: 120px;
 }
 
 .header
@@ -47,7 +32,18 @@ font-size:33px;
 
 .box
 {
-  display:none;
+  position:absolute;
+  float:right;
+  top: 25%;
+  width: 38%; 
+  height: 290px;
+  width: 580px;
+  left: 31.5%;
+  background-color:rgb(26, 43, 82);
+  transform: translateX(40%);
+  z-index:200;
+  text-align:right;
+  font-size: 36px;
   } 
 .line
 {
@@ -55,18 +51,7 @@ font-size:33px;
 }
 .bbox
 {
-  top: 15%;
-  border-style:dashed;
-  height: 475px;
-  width: 400px;
-  background: rgba(49,48,25,.15);
-  transform: translateX(40%);
-  z-index:200;
-  text-align:right;
-  font-size: 36px;
-   border-width:5px;
-   border-color:rgb(128, 170, 255);
-  left: 54%;
+  left: 44%;
   
 }
 .bline
@@ -76,163 +61,98 @@ font-size:33px;
 
 .sbox
 {
-  left:-7%;
-  top: 7%;
-  height: 34px;
-  width: 250px;
-  font-size: 24px;
-  color:black;
-  font-family:cursive;
-  font-weight:630;
-  border-style:solid;
-  border-width:3px;
+  left:-6.5%;
    
 }
 .container
 {
    
-   left:-72%;
-   top: -15%;
-   height: 70px;
-   width:70px;
+   left:-75%;
+   top: -8%;
    
 }
-a
-{
-   font-size:40px;
-   margin:10;
-}
 .navbar {
-  top:91%;
+  top:93%;
   height:9%;
   
 }
 .navbar a {
-  font-size: 18px;
-  padding: 10px 20px;
+  font-size: 20px;
+  padding: 10px 15px;
 }
 #about
 {
-   width:1141px;
-   height:528px;     
+   width:1368px;
+   height:620px;    
 }
 #contact
 {
- width:1141px;
+   
+   width:1368px;
   
 }
 .b
 {
   position:absolute;
-  top:215%;
+  top:248%;
   width: 10%;
   height:340px;
   width: 500px;
-  left:5%;
+  left:25%;
 }
 .con{
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6%;
 }
 #edu
 {
-   width:1141px;
-   height:528px;
+   width:1368px;
 }
 #skills
 {
-   width:1141px;
-   height:528px;
+   width:1368px;
 }
 #ach
 {
-    background-image:none;
-   width:1141px;
-   height:500px;
+   width:1368px;
 }
 
 h5
 { 
-  top:490%;
-   left:29%;
-   font-size:44px;
-   color:darkblue;
+  top:515%;
+   left:47%;
 }
 
 .p1
 {
-  top:520%;
-   left:-1%;
+  top:560%;
+   left:9%;
     FONT-SIZE:19PX;
 }
 
 .p2
 {
-  top:520%;
-   left:44%;
+  top:560%;
+   left:72%;
   FONT-SIZE:19PX;
 }
 #myBtn {
   bottom:48px;
-  right: 2px;
+  right: 1px;
   width:120px;
   height:40px;
   font-size: 22px;
 }
 p{
-  font-size:18px;
-  margin-top:-20px;
-  margin-bottom:-15px;
+  font-size:27px;
 }
 li
 {
-  font-size:17px;
+  font-size:20px;
 }
-
-.language
-{
-      width: 75%;
-      height:15px;
-      margin-top:-25px;
-}
-      
-        .lang 
-         {
-            font-size: 13px;
-        }
-
-.eng
-{
-   width:90%;
-   height:15px;
-   
-}
-.hindi
-{
-   width:95%;
-   height:15px;
-}
-.german
-{
-   width:60%;
-   height:15px;
-   
-}
-.punj
-{
-   width:90%;
-   height:15px;
-}
-.all
-   {
-       margin-left:-170px;
-   }
-.circle-wrap
-{
-     margin-left:0px;
-     grid-gap:-20px;
-}
-
-
 }
 
 
@@ -259,7 +179,7 @@ img
    position:absolute;
    top: -5%;
    width:400px;
-   height:400px;
+   height:420px;
    left: 2%;
    border: 1px solid rgb(128, 168, 255);
 }
@@ -277,13 +197,13 @@ img
 
 #home
 {
-    width:790px;
-   height:790px;  
+    width:1024px;
+   height:955px;  
 }
 h1
 {
-   text-align:left;
-   font-size: 140px;
+   text-align:center;
+   font-size: 180px;
 }
 
 .box
@@ -296,9 +216,9 @@ h1
 }
 .bbox
 {
-  left: 30%;
-  top: 40%;
-  height: 360px;
+  left: 10%;
+  top: 50%;
+  height: 380px;
   width: 420px;
   border-color:black;
 }
@@ -312,108 +232,182 @@ p
 }
 .sbox
 {
-  left:15%;
-  top:40%;
-  height: 40px;
-  width: 260px;
+  left:68%;
+  height: 50px;
+  width: 280px;
   text-align:left;
-  font-size: 25px; 
+  font-size: 30px; 
 }
 .container
 {
    
-   left:-57%;
-   top: 4%;
-   height: 60px;
-   width:60px;
+   left:-25%;
+   top: -56%;
+   height:70px;
+   width:70px;
    
 }
 a
 {
-   font-size:36px;
+   font-size:42px;
    margin:10;
 }
 .navbar {
-  top:0%;
-  height:6%;
-  font-size:6px;
+  top:93%;
+  height:9%;
+  font-size:27px;
   
 }
 
 .navbar a {
-  font-size: 18px;
-  padding: 4px 9px;
+  font-size: 24px;
+  padding: 10px 20px;
 }
 #about
 {
-    width:1050px;
-   height:680px;    
+   width:1368px;
+   height:700px;    
 }
 #contact
 {
-    width:1050px;
-   height:680px;    
+   
+   width:1368px;
   
 }
 .b
 {
   position:absolute;
-  top:298%;
+  top:310%;
   width: 10%;
-  height:340px;
-  width: 500px;
-  left:15%;
+  height:390px;
+  width: 550px;
+  left:25%;
 }
+.input{
+    height: 300px;
+    width: 800px;  
+}
+.details{
+    padding: 1.5rem 1 1rem 3rem;
+    font-size:20px;
+    margin-top: 0.7rem;
+    margin-right:210px;
+}
+.submitbtn{
+    left: 0px;
+    width: 130px;
+    height:42px;
+    margin-top: 1rem;
+    font-size:20px;
+}
+
 .con{
   display: none;
 }
 #edu
 {
- width:1050px;
-   height:680px;    
+   margin-top:20px;
+    background-image:none;
+   width:1368px;
+   height:550px;
 }
 #skills
 {
-    width:1050px;
-   height:680px;      
+   width:1368px;
 }
 #ach
 {
-   width:1050px;
-   height:680px;      
+    background-image:none;
+   width:1368px;
+   height:650px;
 }
 
 h5
 { 
-  top:630%;
-   left:49%;
+  top:592%;
+   left:59%;
+   color:darkblue;
+   font-size:55px;
 }
 
 .p1
 {
-  top:658%;
-   left:5%;
+  top:625%;
+   left:12%;
+   height:300px;
+  width:1050px;
 }
 li
 {
-  font-size: 20px;
+  font-size: 28px;
 }
 .p2
 {
-  top:658%;
-   left:72%;
+  top:660%;
+   left:12%;
+   height:300px;
+  width:1050px;
 }
 #myBtn {
-  bottom:65px;
-  right: 2px;
+  bottom:70px;
+  right: 1px;
   width:120px;
-  height:40px;
-  font-size: 20px;
+  height:43px;
+  font-size: 30px;
 }
-p
+h3
 {
-font-size:21px;
+font-size:45px;
 }
+.language
+{
+      width: 75%;
+      height:24px;
+      margin-top:-35px;
+      margin-bottom:45px;
+}
+      
+        .lang 
+         {
+            font-size: 22px;
+        }
+
+.eng
+{
+   width:90%;
+   height:24px;
+   
+}
+.hindi
+{
+   width:95%;
+   height:24px;
+}
+.german
+{
+   width:60%;
+   height:24px;
+   
+}
+.punj
+{
+   width:90%;
+   height:24px;
+}
+h6
+{
+font-size:22px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 28px;
+  width:195px;
+  left:-1100px;
+  top:430px;
+  font-size:24px;
+}
+
 }
 
 
@@ -441,7 +435,7 @@ img
    top: 0%;
    width:690px;
    height:760px;
-   left: 4%;
+   left: 5%;
    border: 1px solid rgb(128, 168, 255);
 }
 
@@ -450,7 +444,7 @@ img
   top:-6%;
   left:0%;
   height: 320%;
-  width: 270%;
+  width: 300%;
   position: absolute;
   overflow-x: hidden;
   padding-top: 0px;
@@ -458,16 +452,15 @@ img
 
 #home
 {
-    width:830px;
-   height:1485px;  
+    width:1024px;
+   height:1700px;  
 }
 h1
 {
-   text-align:left;
-   font-size: 200px;
+   text-align:center;
+   font-size: 240px;
    text-shadow:8px 8px rgb(90, 180,235),
 		   3px 3px black;
-   margin-top:100px;
 }
 
 .box
@@ -481,10 +474,10 @@ h1
 .bbox
 {
   left:-2%;
-  top: 38%;
+  top: 48%;
   height: 760px;
-  width: 750px;
-  border-color:black;
+  width: 780px;
+  border-color:skyblue;
   border-width:8px;
 }
 .bline
@@ -493,61 +486,61 @@ h1
 }
 p
 {
-  font-size:28px;
+  font-size:45px;
 }
 .sbox
 {
-  top:34%;
-  left:48%;
-  height: 64px;
-  width: 335px;
+  top:5%;
+  left:58%;
+  height: 60px;
+  width: 320px;
   text-align:left;
-  font-size: 38px; 
+  font-size: 36px; 
 }
 .container
 {
    
    left:-55%;
-   top:-8%;
+   top:-11%;
     height: 110px;
    width:110px;
     margin:10;
 }
 a
 {
-   font-size:58px;
+   font-size:64px;
 }
 .navbar {
-  top:0%;
-  height:5%;
+  top:95%;
+  height:14%;
   font-size:33px;
   
 }
 
 .navbar a {
-  font-size: 23px;
-  padding: 18px 15px;
+  font-size: 34px;
+  padding: 18px 18px;
 }
 #about
 {
-   width:1158px;
+   width:1368px;
    height:1490px;  
    background-image:none;
 }
 #contact
 {
-   height:1490px;
-   width:1150px;
+   height:1420px;
+   width:1368px;
   
 }
 .b
 {
   position:absolute;
-  top:610%;
+  top:630%;
   width: 10%;
-  height:800px;
-  width: 900px;
-  left:-60%;
+  height:880px;
+  width: 1000px;
+  left:-45%;
 }
 .con{
   display: none;
@@ -555,8 +548,8 @@ a
 #edu
 {
    background-image:none;
-   width:1144px;
-   height:1000px;
+   width:1368px;
+   height:1190px;
 }
 #skills
 {
@@ -566,25 +559,24 @@ a
 #ach
 {
    background-image:none;
-   background-color:hsla(0,100%, 70%, 0.3);
-   height:1190px;
+   height:1600px;
    width:1368px;
 }
 
 h5
 { 
-  color:darkmagenta;
+  color:darkblue;
   font-size:100px;
-  top:1130%;
-   left:45%;
+  top:1190%;
+   left:78%;
 }
 
 .p1
 {
-  top:1190%;
+  top:1260%;
    left:12%;
-   height:200px;
-  width:990px;
+   height:180px;
+  width:1130px;
 }
 li
 {
@@ -592,39 +584,42 @@ li
 }
 .p2
 {
-  top:1250%;
+  top:1360%;
    left:12%;
    height:200px;
-  width:990px;
+  width:1130px;
 }
 #myBtn {
   bottom:85px;
   right: 2px;
   width:230px;
   height:70px;
-  font-size: 40px;
+  font-size: 50px;
 }
 h3
 {
-  font-size:80px;
+  font-size:100px;
 }
 li
 {
-   font-size:40px;
+   font-size:50px;
    font-weight:600px;
 }
 p
 {
-   font-size:40px;
+   font-size:55px;
 }
 h6
 {
-   font-size:40px;
+   font-size:45px;
    font-weight:700px;
 }
 .language
 {
       height:40px;
+      width: 85%;
+      margin-top:-25px;
+      margin-bottom:65px;
 }
       
         .lang 
@@ -653,8 +648,8 @@ h6
 
 .input{
     height: 670px;
-    width: 800px;
-    
+    width: 850px;
+    margin-left:170px;
 }
 .details{
     padding: 1rem 7 4rem 1rem;
@@ -665,21 +660,603 @@ h6
     font-size:36px;
     border: 0;
     text-decoration: none;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 .submitbtn{
     left: -40px;
-    width: 280px;
-    height:60px;
-    margin-bottom: 1rem;
-    font-size:32px;
+    width: 320px;
+    height:90px;
+    margin-top: 3rem;
+    font-size:40px;
 }
 
 
 .circle-wrap
 {   
    margin-top:-200px;
-     margin-left:-50px;
+     margin-left:-200px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.circle-wrap .inside-circle {
+  
+  font-size: 1.6em;
+  font-family:cursive;
+}
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 43px;
+  width:298px;
+  color:black;
+  left:-1100px;
+  top:495px;
+  font-size:30px;
+  font-weight:620;
+  
+}
+}
+
+
+
+@media screen and (max-width:414px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: 0%;
+   width:690px;
+   height:760px;
+   left: 5%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-6%;
+  left:0%;
+  height: 320%;
+  width: 310%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:1024px;
+   height:1700px;  
+}
+h1
+{
+   text-align:center;
+   font-size: 240px;
+   text-shadow:8px 8px rgb(90, 180,235),
+		   3px 3px black;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left:-2%;
+  top: 30%;
+  height: 760px;
+  width: 780px;
+  border-color:skyblue;
+  border-width:8px;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:45px;
+}
+.sbox
+{
+  top:5%;
+  left:58%;
+  height: 60px;
+  width: 320px;
+  text-align:left;
+  font-size: 36px; 
+}
+.container
+{
+   
+   left:-55%;
+   top:-6%;
+    height: 110px;
+   width:110px;
+    margin:10;
+}
+a
+{
+   font-size:64px;
+}
+.navbar {
+  top:95%;
+  height:14%;
+  font-size:33px;
+  
+}
+
+.navbar a {
+  font-size: 34px;
+  padding: 18px 18px;
+}
+#about
+{
+   width:1368px;
+   height:1490px;  
+   background-image:none;
+}
+#contact
+{
+   height:1420px;
+   width:1368px;
+  
+}
+.b
+{
+  position:absolute;
+  top:400%;
+  width: 10%;
+  height:880px;
+  width: 1000px;
+  left:-45%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   background-image:none;
+   width:1368px;
+   height:1190px;
+}
+#skills
+{
+   width:1368px;
+   height:800px;
+}
+#ach
+{
+   background-image:none;
+   height:2300px;
+   width:1368px;
+}
+
+h5
+{ 
+  color:darkblue;
+  font-size:100px;
+  top:760%;
+   left:78%;
+}
+
+.p1
+{
+  top:805%;
+   left:12%;
+   height:10px;
+  width:1230px;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:855%;
+   left:12%;
+   height:200px;
+  width:1130px;
+}
+#myBtn {
+  bottom:85px;
+  right: 2px;
+  width:230px;
+  height:70px;
+  font-size: 50px;
+}
+h3
+{
+  font-size:100px;
+}
+li
+{
+   font-size:50px;
+   font-weight:600px;
+}
+p
+{
+   font-size:55px;
+}
+h6
+{
+   font-size:45px;
+   font-weight:700px;
+}
+.language
+{
+      height:40px;
+      width: 85%;
+      margin-top:-25px;
+      margin-bottom:65px;
+}
+      
+        .lang 
+         {
+            font-size: 37px;
+        }
+
+.eng
+{
+   height:40px;
+   
+}
+.hindi
+{
+   height:40px;
+}
+.german
+{
+   height:40px;
+   
+}
+.punj
+{
+   height:40px;
+}
+
+.input{
+    height: 670px;
+    width: 850px;
+    margin-left:170px;
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:40px;
+    border: 0;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 320px;
+    height:90px;
+    margin-top: 3rem;
+    font-size:40px;
+}
+
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-200px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.circle-wrap .inside-circle {
+  
+  font-size: 1.6em;
+  font-family:cursive;
+}
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 43px;
+  width:298px;
+  color:black;
+  left:-1100px;
+  top:525px;
+  font-size:30px;
+  font-weight:620;
+  
+}
+}
+
+
+
+@media screen and (max-width:393px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: 0%;
+   width:690px;
+   height:760px;
+   left: 5%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-6%;
+  left:0%;
+  height: 320%;
+  width: 300%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:1024px;
+   height:2100px;  
+}
+h1
+{
+   text-align:center;
+   font-size: 240px;
+   text-shadow:8px 8px rgb(90, 180,235),
+		   3px 3px black;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left:-2%;
+  top: 48%;
+  height: 760px;
+  width: 780px;
+  border-color:skyblue;
+  border-width:8px;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:45px;
+}
+.sbox
+{
+  top:3%;
+  left:55%;
+  height: 70px;
+  width: 350px;
+  text-align:left;
+  font-size: 40px; 
+}
+.container
+{
+   
+   left:-20%;
+   top:2%;
+    height: 110px;
+   width:110px;
+    margin:10;
+}
+a
+{
+   font-size:64px;
+}
+.navbar {
+  top:95%;
+  height:14%;
+  font-size:33px;
+  
+}
+
+.navbar a {
+  font-size: 34px;
+  padding: 18px 18px;
+}
+#about
+{
+   width:1368px;
+   height:1490px;  
+   background-image:none;
+}
+#contact
+{
+   height:1420px;
+   width:1368px;
+  
+}
+.b
+{
+  position:absolute;
+  top:470%;
+  width: 10%;
+  height:880px;
+  width: 1000px;
+  left:-50%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   background-image:none;
+   width:1368px;
+   height:1190px;
+}
+#skills
+{
+   width:1368px;
+   height:800px;
+}
+#ach
+{
+   background-image:none;
+   height:2300px;
+   width:1368px;
+}
+
+h5
+{ 
+  color:darkblue;
+  font-size:100px;
+  top:850%;
+   left:78%;
+}
+
+.p1
+{
+  top:900%;
+   left:12%;
+   height:180px;
+  width:1130px;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:960%;
+   left:12%;
+   height:200px;
+  width:1130px;
+}
+#myBtn {
+  bottom:85px;
+  right: 2px;
+  width:230px;
+  height:70px;
+  font-size: 50px;
+}
+h3
+{
+  font-size:100px;
+}
+li
+{
+   font-size:50px;
+   font-weight:600px;
+}
+p
+{
+   font-size:55px;
+}
+h6
+{
+   font-size:45px;
+   font-weight:700px;
+}
+.language
+{
+      height:40px;
+      width: 85%;
+      margin-top:-25px;
+      margin-bottom:65px;
+}
+      
+        .lang 
+         {
+            font-size: 37px;
+        }
+
+.eng
+{
+   height:40px;
+   
+}
+.hindi
+{
+   height:40px;
+}
+.german
+{
+   height:40px;
+   
+}
+.punj
+{
+   height:40px;
+}
+
+.input{
+    height: 670px;
+    width: 850px;
+    margin-left:170px;
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:36px;
+    border: 0;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 320px;
+    height:90px;
+    margin-top: 3rem;
+    font-size:40px;
+}
+
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-200px;
    width:150px;
    height:150px;
    background-color:white;
@@ -711,24 +1288,294 @@ h7
 
 
 
+@media screen and (max-width:390px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: 0%;
+   width:690px;
+   height:760px;
+   left: 5%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-6%;
+  left:0%;
+  height: 320%;
+  width: 300%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:1024px;
+   height:2100px;  
+}
+h1
+{
+   text-align:center;
+   font-size: 240px;
+   text-shadow:8px 8px rgb(90, 180,235),
+		   3px 3px black;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left:-2%;
+  top: 48%;
+  height: 760px;
+  width: 780px;
+  border-color:skyblue;
+  border-width:8px;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:45px;
+}
+.sbox
+{
+  top:3%;
+  left:55%;
+  height: 70px;
+  width: 350px;
+  text-align:left;
+  font-size: 40px; 
+}
+.container
+{
+   
+   left:-20%;
+   top:2%;
+    height: 110px;
+   width:110px;
+    margin:10;
+}
+a
+{
+   font-size:64px;
+}
+.navbar {
+  top:95%;
+  height:14%;
+  font-size:33px;
+  
+}
+
+.navbar a {
+  font-size: 34px;
+  padding: 18px 18px;
+}
+#about
+{
+   width:1368px;
+   height:1490px;  
+   background-image:none;
+}
+#contact
+{
+   height:1420px;
+   width:1368px;
+  
+}
+.b
+{
+  position:absolute;
+  top:470%;
+  width: 10%;
+  height:880px;
+  width: 1000px;
+  left:-50%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   background-image:none;
+   width:1368px;
+   height:1190px;
+}
+#skills
+{
+   width:1368px;
+   height:800px;
+}
+#ach
+{
+   background-image:none;
+   height:2300px;
+   width:1368px;
+}
+
+h5
+{ 
+  color:darkblue;
+  font-size:100px;
+  top:850%;
+   left:78%;
+}
+
+.p1
+{
+  top:900%;
+   left:12%;
+   height:180px;
+  width:1130px;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:960%;
+   left:12%;
+   height:200px;
+  width:1130px;
+}
+#myBtn {
+  bottom:85px;
+  right: 2px;
+  width:230px;
+  height:70px;
+  font-size: 50px;
+}
+h3
+{
+  font-size:100px;
+}
+li
+{
+   font-size:50px;
+   font-weight:600px;
+}
+p
+{
+   font-size:55px;
+}
+h6
+{
+   font-size:45px;
+   font-weight:700px;
+}
+.language
+{
+      height:40px;
+      width: 85%;
+      margin-top:-25px;
+      margin-bottom:65px;
+}
+      
+        .lang 
+         {
+            font-size: 37px;
+        }
+
+.eng
+{
+   height:40px;
+   
+}
+.hindi
+{
+   height:40px;
+}
+.german
+{
+   height:40px;
+   
+}
+.punj
+{
+   height:40px;
+}
+
+.input{
+    height: 670px;
+    width: 850px;
+    margin-left:170px;
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:36px;
+    border: 0;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 320px;
+    height:90px;
+    margin-top: 3rem;
+    font-size:40px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-200px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.circle-wrap .inside-circle {
+  
+  font-size: 1.6em;
+  font-family:cursive;
+}
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 43px;
+  width:298px;
+  color:black;
+  left:-1100px;
+  top:495px;
+  font-size:30px;
+  font-weight:620;
+  
+}
+}
 
 
 
@@ -760,10 +1607,10 @@ img
 
 .header
 {
-  top:-6%;
+  top:-15%;
   left:0%;
   height: 420%;
-  width: 300%;
+  width: 340%;
   position: absolute;
   overflow-x: hidden;
   padding-top: 0px;
@@ -772,7 +1619,7 @@ img
 #home
 {
     width:1024px;
-   height:2050px;  
+   height:2020px;  
 }
 h1
 {
@@ -810,17 +1657,17 @@ p
 .sbox
 {
   top:5%;
-  left:58%;
-  height: 60px;
-  width: 320px;
+  left:55%;
+  height: 70px;
+  width: 410px;
   text-align:left;
-  font-size: 36px; 
+  font-size: 45px; 
 }
 .container
 {
    
-   left:-15%;
-   top:32%;
+   left:-25%;
+   top:33%;
     height: 110px;
    width:110px;
     margin:10;
@@ -831,35 +1678,35 @@ a
 }
 .navbar {
   top:95%;
-  height:15%;
+  height:23%;
   font-size:33px;
   
 }
 
 .navbar a {
-  font-size: 28px;
+  font-size: 39px;
   padding: 18px 18px;
 }
 #about
 {
    width:1368px;
-   height:1490px;  
+   height:1580px;  
    background-image:none;
 }
 #contact
 {
-   height:1490px;
+   height:1400px;
    width:1368px;
   
 }
 .b
 {
   position:absolute;
-  top:700%;
+  top:710%;
   width: 10%;
-  height:800px;
-  width: 900px;
-  left:-30%;
+  height:840px;
+  width: 920px;
+  left:-35%;
 }
 .con{
   display: none;
@@ -868,7 +1715,7 @@ a
 {
    background-image:none;
    width:1368px;
-   height:1000px;
+   height:1350px;
 }
 #skills
 {
@@ -878,25 +1725,24 @@ a
 #ach
 {
    background-image:none;
-   background-color:hsla(0,100%, 70%, 0.3);
-   height:1190px;
+   height:1700px;
    width:1368px;
 }
 
 h5
 { 
-  color:darkmagenta;
-  font-size:100px;
-  top:1223%;
+  color:darkblue;
+  font-size:110px;
+  top:1283%;
    left:78%;
 }
 
 .p1
 {
-  top:1290%;
+  top:1350%;
    left:12%;
    height:200px;
-  width:990px;
+  width:1200px;
 }
 li
 {
@@ -904,63 +1750,64 @@ li
 }
 .p2
 {
-  top:1360%;
+  top:1450%;
    left:12%;
    height:200px;
-  width:990px;
+  width:1200px;
 }
 #myBtn {
   bottom:105px;
   right: 2px;
   width:230px;
-  height:70px;
-  font-size: 40px;
+  height:80px;
+  font-size: 50px;
 }
 h3
 {
-  font-size:90px;
+  font-size:110px;
 }
 li
 {
-   font-size:40px;
+   font-size:55px;
    font-weight:600px;
 }
 p
 {
-   font-size:40px;
+   font-size:57px;
 }
 h6
 {
-   font-size:40px;
+   font-size:45px;
    font-weight:700px;
 }
 .language
 {
-      height:40px;
+      height:55px;
+      width: 85%;
 }
       
         .lang 
          {
-            font-size: 37px;
+            font-size: 48px;
         }
 
 .eng
 {
-   height:40px;
+   height:55px;
    
 }
 .hindi
 {
-   height:40px;
+   height:55px;
 }
 .german
 {
-   height:40px;
+   height:55px;
    
 }
 .punj
 {
-   height:40px;
+   height:55px;
 }
 
 .input{
@@ -974,34 +1821,30 @@ h6
     color: black;
     width: 80%;
     height: auto;
-    font-size:36px;
+    font-size:40px;
     border: 0;
     text-decoration: none;
     margin-bottom: 1rem;
 }
 .submitbtn{
-    left: -40px;
+    left: -20px;
     width: 280px;
-    height:60px;
+    height:80px;
     margin-bottom: 1rem;
-    font-size:32px;
+    font-size:42px;
 }
 
 
 .circle-wrap
 {   
    margin-top:-200px;
-     margin-left:-50px;
+     margin-left:-200px;
    width:150px;
    height:150px;
    background-color:white;
    border-radius:50%;
 }
-.circle-wrap .inside-circle {
-  
-  font-size: 1.8em;
-  font-family:cursive;
-}
+
 h7
 {
   font-size:90px;
@@ -1009,12 +1852,12 @@ h7
 .bn
 {
   padding: 7px 7px;
-  height: 56px;
-  width:370px;
+  height: 57px;
+  width:450px;
   color:black;
-  left:-1100px;
+  left:-1000px;
   top:495px;
-  font-size:37px;
+  font-size:41px;
   font-weight:620;
   
 }
@@ -1023,16 +1866,288 @@ h7
 
 
 
+@media screen and (max-width:360px)
+{
+   body
+   {
+     width:100%;
+      background-color:lightblue;
+      display:block;
+    }
+
+   #vd
+  {
+  width:133.6%;
+  height:100%; 
+  }
+
+img
+{
+   position:absolute;
+   top: 0%;
+   width:690px;
+   height:760px;
+   left: 5%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-15%;
+  left:0%;
+  height: 420%;
+  width: 340%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+#home
+{
+    width:1024px;
+   height:2030px;  
+}
+h1
+{
+   text-align:center;
+   font-size: 250px;
+   text-shadow:10px 10px rgb(90, 180,235),
+		   3px 3px black;
+}
+
+.box
+{
+  display:none;
+  } 
+.line
+{
+   display:none;
+}
+.bbox
+{
+  left:-2%;
+  top: 38%;
+  height: 760px;
+  width: 780px;
+  border-color:skyblue;
+  border-width:8px;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:28px;
+}
+.sbox
+{
+  top:4%;
+  left:50%;
+  height: 70px;
+  width: 410px;
+  text-align:left;
+  font-size: 45px; 
+}
+.container
+{
+   
+   left:-25%;
+   top:27%;
+    height: 110px;
+   width:110px;
+    margin:10;
+}
+a
+{
+   font-size:58px;
+}
+.navbar {
+  top:95%;
+  height:23%;
+  font-size:33px;
+  
+}
+
+.navbar a {
+  font-size: 39px;
+  padding: 18px 18px;
+}
+#about
+{
+   width:1368px;
+   height:1580px;  
+   background-image:none;
+}
+#contact
+{
+   height:1400px;
+   width:1368px;
+  
+}
+.b
+{
+  position:absolute;
+  top:550%;
+  width: 10%;
+  height:840px;
+  width: 920px;
+  left:-35%;
+}
+.con{
+  display: none;
+}
+#edu
+{
+   background-image:none;
+   width:1368px;
+   height:1350px;
+}
+#skills
+{
+   width:1368px;
+   height:800px;
+}
+#ach
+{
+   background-image:none;
+   height:2100px;
+   width:1368px;
+}
+
+h5
+{ 
+  color:darkblue;
+  font-size:110px;
+  top:985%;
+   left:78%;
+}
+
+.p1
+{
+  top:1040%;
+   left:12%;
+   height:200px;
+  width:1200px;
+}
+li
+{
+  font-size: 20px;
+}
+.p2
+{
+  top:1120%;
+   left:12%;
+   height:200px;
+  width:1200px;
+}
+#myBtn {
+  bottom:105px;
+  right: 2px;
+  width:230px;
+  height:80px;
+  font-size: 50px;
+}
+h3
+{
+  font-size:110px;
+}
+li
+{
+   font-size:55px;
+   font-weight:600px;
+}
+p
+{
+   font-size:57px;
+}
+h6
+{
+   font-size:45px;
+   font-weight:700px;
+}
+.language
+{
+      height:55px;
+      width: 85%;
+}
+      
+        .lang 
+         {
+            font-size: 48px;
+        }
+
+.eng
+{
+   height:55px;
+   
+}
+.hindi
+{
+   height:55px;
+}
+.german
+{
+   height:55px;
+   
+}
+.punj
+{
+   height:55px;
+}
+
+.input{
+    height: 670px;
+    width: 800px;
+    
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:40px;
+    border: 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.submitbtn{
+    left: -20px;
+    width: 280px;
+    height:80px;
+    margin-bottom: 1rem;
+    font-size:42px;
+}
 
 
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-200px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
 
-
-
-
-
-
-
-
+h7
+{
+  font-size:90px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 57px;
+  width:450px;
+  color:black;
+  left:-1000px;
+  top:495px;
+  font-size:41px;
+  font-weight:620;
+  
+}
+}
 
 
 
@@ -1075,15 +2190,16 @@ img
 
 #home
 {
-    width:1024px;
-   height:2050px;  
+    width:954px;
+   height:2120px;  
 }
 h1
 {
    text-align:center;
    font-size: 250px;
    text-shadow:10px 10px rgb(90, 180,235),
-		   3px 3px black;
+		   2px 2px black;
+   margin-top:100px;
 }
 
 .box
@@ -1113,55 +2229,55 @@ p
 }
 .sbox
 {
-  top:5%;
-  left:50%;
-  height: 60px;
-  width: 320px;
+  top:45%;
+  left:25%;
+  height: 70px;
+  width: 420px;
   text-align:left;
-  font-size: 36px; 
+  font-size: 45px;
 }
 .container
 {
    
-   left:-15%;
-   top:32%;
-    height: 110px;
-   width:110px;
+   left:-6%;
+   top:38%;
+    height: 120px;
+   width:120px;
     margin:10;
 }
 a
 {
-   font-size:58px;
+   font-size:77px;
 }
 .navbar {
   top:95%;
-  height:15%;
+  height:12%;
   font-size:33px;
   
 }
 
 .navbar a {
-  font-size: 28px;
-  padding: 18px 18px;
+  font-size: 38px;
+  padding: 10px 10px;
 }
 #about
 {
-   width:1368px;
-   height:1490px;  
+   width:1268px;
+   height:1590px;  
    background-image:none;
 }
 #contact
 {
    height:1490px;
-   width:1368px;
+   width:1268px;
   
 }
 .b
 {
   position:absolute;
-  top:700%;
+  top:730%;
   width: 10%;
-  height:800px;
+  height:850px;
   width: 900px;
   left:-50%;
 }
@@ -1171,36 +2287,35 @@ a
 #edu
 {
    background-image:none;
-   width:1368px;
-   height:1000px;
+   width:1268px;
+   height:1300px;
 }
 #skills
 {
-   width:1368px;
+   width:1268px;
    height:800px;
 }
 #ach
 {
    background-image:none;
-   background-color:hsla(0,100%, 70%, 0.3);
-   height:1190px;
-   width:1368px;
+   height:1620px;
+   width:1268px;
 }
 
 h5
 { 
-  color:darkmagenta;
-  font-size:100px;
-  top:1223%;
+  color:darkblue;
+  font-size:110px;
+  top:1313%;
    left:78%;
 }
 
 .p1
 {
-  top:1290%;
+  top:1390%;
    left:12%;
    height:200px;
-  width:990px;
+  width:1090px;
 }
 li
 {
@@ -1208,63 +2323,64 @@ li
 }
 .p2
 {
-  top:1360%;
+  top:1490%;
    left:12%;
    height:200px;
-  width:990px;
+  width:1090px;
 }
 #myBtn {
-  bottom:105px;
+  bottom:115px;
   right: 2px;
   width:230px;
-  height:70px;
-  font-size: 40px;
+  height:80px;
+  font-size: 55px;
 }
 h3
 {
-  font-size:90px;
+  font-size:110px;
 }
 li
 {
-   font-size:40px;
+   font-size:52px;
    font-weight:600px;
 }
 p
 {
-   font-size:40px;
+   font-size:52px;
 }
 h6
 {
-   font-size:40px;
+   font-size:49px;
    font-weight:700px;
 }
 .language
 {
-      height:40px;
+      height:55px;
+      margin-bottom:5rem;
 }
       
         .lang 
          {
-            font-size: 37px;
+            font-size: 45px;
         }
 
 .eng
 {
-   height:40px;
+   height:55px;
    
 }
 .hindi
 {
-   height:40px;
+   height:55px;
 }
 .german
 {
-   height:40px;
+   height:55px;
    
 }
 .punj
 {
-   height:40px;
+   height:55px;
 }
 
 .input{
@@ -1273,29 +2389,29 @@ h6
     
 }
 .details{
-    padding: 1rem 7 4rem 1rem;
+    padding: 1rem 7 3rem 1rem;
     background-color: lightgrey;
     color: black;
     width: 80%;
     height: auto;
-    font-size:36px;
+    font-size:47px;
     border: 0;
     text-decoration: none;
     margin-bottom: 1rem;
 }
 .submitbtn{
-    left: -40px;
+    left: -20px;
     width: 280px;
-    height:60px;
+    height:90px;
     margin-bottom: 1rem;
-    font-size:32px;
+    font-size:50px;
 }
 
 
 .circle-wrap
 {   
    margin-top:-200px;
-     margin-left:-50px;
+     margin-left:-200px;
    width:150px;
    height:150px;
    background-color:white;
@@ -1312,14 +2428,17 @@ h7
 }
 .bn
 {
-  padding: 7px 7px;
-  height: 56px;
-  width:370px;
+  padding: 3px 3px;
+  height: 63px;
+  width:480px;
   color:black;
-  left:-1100px;
+  left:-1000px;
   top:495px;
-  font-size:37px;
+  font-size:45px;
   font-weight:620;
   
 }
 }
+
+
+
