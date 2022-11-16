@@ -3,10 +3,18 @@
 <meta charset ="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width">
 <script src="https://kit.fontawesome.com/93703b52d0.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="resume.css">
-<link rel="stylesheet" href="resp.css">
+<link rel="stylesheet" href="resp1.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("hmeqI0juW_h1QYqkj");
+   })();
+</script>
 
 <title>resume</title>
 </head>
@@ -131,14 +139,15 @@ rel='stylesheet' type='text/css'>
 <section id="contact"  style="background-image: url('con.jpg');">
 <h3 style="COLOR:WHITE">&nbsp; CONTACT ME :</h3>
 <div class="b">
-<form action="mailto:bableenkaur83@gmail.com" class="form">
+<form  class="form" >
 <div class="input">
-<input type="text" required placeholder="Name" class="details">
+<input type="text" id="name" name="name" required placeholder="Name" class="details">
 <input type="email" name="email" id="email" required placeholder="Email" class="details">
 <input type="text" name="phone" id="phone" placeholder="Phone Number" class="details">
+<input type="text" id="message" name="message"  placeholder="how can i help you?" class="details" >
 
 </div>
-<input class="btn btn-primary submitbtn" type="submit" value="SUBMIT">
+<button class="btn btn-primary submitbtn" onclick="sendMail()" type="submit" >SUBMIT </button>
 </div>
 </form>
 <div class="con">
@@ -192,7 +201,7 @@ rel='stylesheet' type='text/css'>
      <div class="inside-circle"> JAVA <br> 85%</div>
    </div>
 </div>
-</td></td>
+</td>
 <td>
 <div class="circle-wrap">
  <div class="circle">
@@ -204,7 +213,7 @@ rel='stylesheet' type='text/css'>
       </div>
     <div class="inside-circle"> PYTHON <br> 70%</div>
   </div>
-</div>
+</div></td>
 <td>
 <div class="circle-wrap">
    <div class="circle">
@@ -217,7 +226,7 @@ rel='stylesheet' type='text/css'>
      <div class="inside-circle"> HTML <br> 95%</div>
    </div>
 </div>
-</td></td><td>
+</td><td>
 <div class="circle-wrap">
    <div class="circle">
     <div class="mask full-5">
@@ -229,7 +238,7 @@ rel='stylesheet' type='text/css'>
      <div class="inside-circle"> CSS <br> 88%</div>
    </div>
 </div>
-</td></td><td>
+</td><td>
 <div class="circle-wrap">
    <div class="circle">
     <div class="mask full-6">
@@ -241,8 +250,8 @@ rel='stylesheet' type='text/css'>
      <div class="inside-circle"> JS <br> 78%</div>
    </div>
 </div>
-</td></td>
-<div>
+</td>
+</div>
 </tr>
 </table>
 <a class="bn" href="file:///C:/Users/hp/Downloads/javascript/resume.pdf" role="button" target="_blank">Download CV</a>
@@ -295,6 +304,25 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function sendMail()
+{
+  var params={
+  name:document.getElementById("name").value,
+  email:document.getElementById("email").value,
+  phone:document.getElementById("phone").value,
+  message:document.getElementById("message").value
+}
+
+emailjs.send("service_rl54clo","template_jpom2d9",params)
+.then(function(res)
+{
+  console.log(res);
+  alert("your message sent successfully");
+})
+}
+
+
 </script>
 
 </body>
