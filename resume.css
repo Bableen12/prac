@@ -176,7 +176,7 @@ a:hover .fa
     color:white;  
 }
 
-.header a:before
+.header a::before
 {
    content:"";
    width:200%;
@@ -188,9 +188,9 @@ a:hover .fa
    transform:rotate(130deg);
 }
 
-.header a:hover:before
+.header a:hover::before
 {
-   animation: icons  1s 1;
+   animation: icons  1s ;
    animation-fill-mode: forwards;
 
 }
@@ -234,6 +234,7 @@ a:hover .fa
   width: 100%;
   left:0;
   height:8%;
+  z-index:2000;
 }
 
 .navbar a {
@@ -249,9 +250,10 @@ a:hover .fa
 }
 
 .navbar a:hover {
-  font-size:16px;
+  font-size:15px;
   color: rgb(90, 180, 235);
 }
+
 
 #home
 {
@@ -263,7 +265,8 @@ a:hover .fa
 {
    background-image: url('ab.jpg');
    width:1349px;
-   height:690px;   
+   height:570px;
+   margin-top:-50px;   
    
 }
 
@@ -281,9 +284,9 @@ h3
 {
    background-image: url('edu.jpg');
    width:1349px;
-   height:650px;   
-   
-}
+   height:600px;   
+   margin-top:-38px;
+}  
 
 .language
 {
@@ -291,6 +294,8 @@ h3
       width: 65%;
       border-radius: 15px;
       height:20px;
+      margin-top:-35px;
+      margin-bottom:45px;
 }
       
         .lang 
@@ -341,13 +346,10 @@ table
 }
 
 
-@media only screen and (max-width: 500px)
-{
    .all
    {
    display:flex;
    }
-} 
 
 .circle-wrap
 {
@@ -526,14 +528,15 @@ h4
    height:580px;
    min-height:100vh;
    align-items:center;
+  margin-top:-35px;
 }
 .b
 {
   position:absolute;
-  top:246%;
+  top:216%;
   width: 8%;
   
-  height:330px;
+  height:345px;
   width: 500px;
   left:17%;
   border-style:solid;
@@ -565,7 +568,7 @@ h4
     font-size:16px;
     border: 0;
     text-decoration: none;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 ::placeholder{
     color: black;
@@ -575,8 +578,8 @@ h4
     left: 0px;
     cursor: pointer;
     width: 120px;
-    height:30px;
-    margin-bottom: 1rem;
+    height:32px;
+    margin-top: 1.2rem;
     background-color:#123E83;
     color:white;
 }
@@ -630,7 +633,7 @@ h4
 {
   background-image: url('ac1.jpg');
    width:1349px;
-   height:600px;
+   height:530px;
    display:flex;
    min-height:100vh; 
 }
@@ -643,8 +646,8 @@ h5
    text-align: center;
    color:deeppink;
    text-decoration:underline;  
-  top:525%;
-   left:35%;
+  top:480%;
+   left:38%;
 }
 
 .p1
@@ -653,7 +656,7 @@ h5
   position:absolute;
   height:500px;
   width:450px;
-  top:570%;
+  top:525%;
    left:7%;
   FONT-SIZE:17PX;
 }
@@ -664,7 +667,7 @@ h5
   position:absolute;
   height:500px;
   width:450px;
-  top:570%;
+  top:525%;
    left:55%;
   FONT-SIZE:17PX;
 }
@@ -672,8 +675,8 @@ h5
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 48px;
-  right: 10px;
+  bottom: 49px;
+  right: 2.5px;
   z-index: 399;
   font-size: 18px;
   border: none;
@@ -717,12 +720,16 @@ p
 {
    font-size: 21px;
    color:darkblue;
+   margin-top:-20px;
+   margin-bottom:-20px;
 }
 
 h6
 {
   font-size: 18px;
   color:darkblue;
+  margin-top:-20px;
+  margin-bottom:50px;
 }
 
 h7
@@ -733,4 +740,3 @@ h7
    text-align:left;
    text-decoration:underline;
 }
-
