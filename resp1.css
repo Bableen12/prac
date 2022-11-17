@@ -1,3 +1,55 @@
+@media screen and (max-width:1280px)
+{
+.b
+{
+top:170%;
+}
+.container
+{
+   top: -8%;
+   
+}
+#skills
+{
+height:200px;
+}
+.circle-wrap
+{   
+   margin-top:-240px;
+}
+.bn
+{
+top:430px;
+height: 30px;
+  width:205px;
+  left:-1060px;
+  font-size:24px;
+}
+h5
+{ 
+  top:415%;
+   left:37%;
+}
+
+.p1
+{
+  top:450%;
+   left:9%;
+    FONT-SIZE:19PX;
+}
+
+.p2
+{
+  top:450%;
+   left:58%;
+  FONT-SIZE:19PX;
+}
+
+}
+
+
+
+
 @media screen and (max-width:1100px)
 {
    body
@@ -289,16 +341,25 @@ a
 }
 .details{
     padding: 1.5rem 1 1rem 3rem;
-    font-size:20px;
-    margin-top: 0.7rem;
-    margin-right:210px;
+    font-size:21px;
+    margin-top: 0.9rem;
+    margin-right:240px;
 }
 .submitbtn{
     left: 0px;
     width: 130px;
     height:42px;
-    margin-top: 1rem;
-    font-size:20px;
+    margin-top: 1.5rem;
+    font-size:23px;
+}
+.circle-wrap
+{   
+   margin-top:-150px;
+     margin-left:-120px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
 }
 
 .con{
@@ -411,6 +472,322 @@ font-size:22px;
 }
 
 
+
+
+@media screen and (max-width:712px)
+{
+.sbox
+{
+  margin-top:-45px;
+}
+.bbox
+{
+top: 27%;
+}
+.container
+{
+   
+   left:-25%;
+   top:-27%;
+    height: 80px;
+   width:80px;
+    margin:10;
+}
+a
+{
+   font-size:53px;
+}
+.details{
+    padding: 1rem 7 1rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:30px;
+    border: 0;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-left:13rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 270px;
+    height:60px;
+    margin-top: 2rem;
+    font-size:30px;
+}
+.input{
+    height: 550px;
+    width: 760px;
+}
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-120px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.b
+{
+  position:absolute;
+  top:165%;
+  width: 10%;
+  height:700px;
+  width: 800px;
+  left:-15%;
+}
+p
+{
+font-size:29px;
+}
+li
+{
+font-size:29px;
+}
+h3
+{
+font-size:48px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 43px;
+  width:278px;
+  color:black;
+  left:-1080px;
+  top:635px;
+  font-size:30px;
+  font-weight:620;
+  
+}
+h5
+{ 
+  color:darkblue;
+  font-size:75px;
+  top:390%;
+   left:60%;
+}
+
+.p1
+{
+  top:415%;
+   left:12%;
+   height:180px;
+  width:1130px;
+}
+.p2
+{
+  top:435%;
+   left:12%;
+   height:200px;
+  width:1130px;
+}
+#ach
+{
+height:1900px;
+}
+}
+
+
+@media screen and (max-width:600px)
+{
+img
+{
+   position:absolute;
+   top: -5%;
+   width:400px;
+   height:420px;
+   left: 2%;
+   border: 1px solid rgb(128, 168, 255);
+}
+
+.header
+{
+  top:-5%;
+  left:0%;
+  height: 180%;
+  width: 210%;
+  position: absolute;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+.bbox
+{
+  left: 10%;
+  top: 30%;
+  height: 380px;
+  width: 420px;
+  border-color:black;
+}
+.bline
+{
+  display:none;
+}
+p
+{
+  font-size:28px;
+}
+.sbox
+{
+  margin-top:-25px;
+}
+h1
+{
+font-size:200px;
+}
+.container
+{
+   
+   left:-25%;
+   top:-33%;
+    height: 80px;
+   width:80px;
+    margin:10;
+}
+a
+{
+   font-size:53px;
+}
+h3
+{
+font-size:50px;
+}
+.language
+{
+      width: 75%;
+      height:24px;
+      margin-top:-35px;
+      margin-bottom:45px;
+}
+      
+        .lang 
+         {
+            font-size: 22px;
+        }
+
+.eng
+{
+   width:90%;
+   height:24px;
+   
+}
+.hindi
+{
+   width:95%;
+   height:24px;
+}
+.german
+{
+   width:60%;
+   height:24px;
+   
+}
+.punj
+{
+   width:90%;
+   height:24px;
+}
+#about
+{
+   height:770px;    
+}
+
+p
+{
+font-size:32px;
+}
+.details{
+    padding: 1rem 7 2rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:36px;
+    border: 0;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-left:13rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 270px;
+    height:60px;
+    margin-top: 2rem;
+    font-size:35px;
+}
+.input{
+    height: 550px;
+    width: 760px;
+}
+
+.circle-wrap
+{   
+   margin-top:-200px;
+     margin-left:-120px;
+   width:150px;
+   height:150px;
+   background-color:white;
+   border-radius:50%;
+}
+.b
+{
+  position:absolute;
+  top:185%;
+  width: 10%;
+  height:700px;
+  width: 800px;
+  left:-15%;
+}
+li
+{
+font-size:32px;
+}
+#edu
+{
+height:600px;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 43px;
+  width:278px;
+  color:black;
+  left:-1080px;
+  top:585px;
+  font-size:30px;
+  font-weight:620;
+  
+}
+h5
+{ 
+  color:darkblue;
+  font-size:75px;
+  top:430%;
+   left:65%;
+}
+
+.p1
+{
+  top:460%;
+   left:12%;
+   height:180px;
+  width:1130px;
+}
+.p2
+{
+  top:485%;
+   left:12%;
+   height:200px;
+  width:1130px;
+}
+#ach
+{
+height:1900px;
+}
+}
 
 
 
@@ -661,6 +1038,7 @@ h6
     border: 0;
     text-decoration: none;
     margin-top: 2rem;
+    margin-left:30px;
 }
 .submitbtn{
     left: -40px;
@@ -692,12 +1070,12 @@ h7
 .bn
 {
   padding: 7px 7px;
-  height: 43px;
+  height: 65px;
   width:298px;
   color:black;
   left:-1100px;
   top:495px;
-  font-size:30px;
+  font-size:35px;
   font-weight:620;
   
 }
@@ -765,7 +1143,7 @@ h1
 .bbox
 {
   left:-2%;
-  top: 30%;
+  top: 36%;
   height: 760px;
   width: 780px;
   border-color:skyblue;
@@ -827,7 +1205,7 @@ a
 .b
 {
   position:absolute;
-  top:400%;
+  top:490%;
   width: 10%;
   height:880px;
   width: 1000px;
@@ -850,7 +1228,7 @@ a
 #ach
 {
    background-image:none;
-   height:2300px;
+   height:2700px;
    width:1368px;
 }
 
@@ -858,13 +1236,13 @@ h5
 { 
   color:darkblue;
   font-size:100px;
-  top:760%;
+  top:910%;
    left:78%;
 }
 
 .p1
 {
-  top:805%;
+  top:955%;
    left:12%;
    height:10px;
   width:1230px;
@@ -875,7 +1253,7 @@ li
 }
 .p2
 {
-  top:855%;
+  top:1012%;
    left:12%;
    height:200px;
   width:1130px;
@@ -940,7 +1318,7 @@ h6
 .input{
     height: 670px;
     width: 850px;
-    margin-left:170px;
+    margin-left:100px;
 }
 .details{
     padding: 1rem 7 4rem 1rem;
@@ -993,6 +1371,81 @@ h7
   
 }
 }
+
+@media screen and (max-width:412px)
+{
+.bbox
+{
+  top: 29%;
+}
+.input{
+    height: 670px;
+    width: 850px;
+    margin-left:170px;
+}
+.details{
+    padding: 1rem 7 4rem 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 80%;
+    height: auto;
+    font-size:40px;
+    border: 0;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.submitbtn{
+    left: -40px;
+    width: 320px;
+    height:90px;
+    margin-top: 3rem;
+    font-size:40px;
+}
+.b
+{
+  position:absolute;
+  top:395%;
+  width: 10%;
+  height:880px;
+  width: 1000px;
+  left:-50%;
+}
+.bn
+{
+  padding: 7px 7px;
+  height: 48px;
+  width:390px;
+  color:black;
+  left:-1000px;
+  top:530px;
+  font-size:38px;
+  font-weight:620;
+  
+}
+h5
+{ 
+  color:darkblue;
+  font-size:100px;
+  top:748%;
+   left:78%;
+}
+
+.p1
+{
+  top:788%;
+   left:12%;
+   height:180px;
+  width:1130px;
+}
+.p2
+{
+  top:842%;
+   left:12%;
+   height:200px;
+  width:1130px;
+}
+}
+
 
 
 
@@ -1825,6 +2278,7 @@ h6
     border: 0;
     text-decoration: none;
     margin-bottom: 1rem;
+    margin-left:30px;
 }
 .submitbtn{
     left: -20px;
@@ -1942,7 +2396,7 @@ p
 }
 .sbox
 {
-  top:4%;
+  top:5%;
   left:50%;
   height: 70px;
   width: 410px;
@@ -2394,17 +2848,18 @@ h6
     color: black;
     width: 80%;
     height: auto;
-    font-size:47px;
+    font-size:46px;
     border: 0;
     text-decoration: none;
     margin-bottom: 1rem;
+    margin-left:30px;
 }
 .submitbtn{
     left: -20px;
     width: 280px;
-    height:90px;
-    margin-bottom: 1rem;
-    font-size:50px;
+    height:80px;
+    margin-bottom: 2rem;
+    font-size:40px;
 }
 
 
@@ -2430,11 +2885,11 @@ h7
 {
   padding: 3px 3px;
   height: 63px;
-  width:480px;
+  width:478px;
   color:black;
-  left:-1000px;
+  left:-900px;
   top:495px;
-  font-size:45px;
+  font-size:41px;
   font-weight:620;
   
 }
